@@ -1,8 +1,14 @@
 aid: quinto-andar
 name: Quinto Andar
-description: 'Quinto Andar is a company surfaced as a portfolio company of ribbit-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'QuintoAndar is a Brazilian proptech real-estate marketplace that lets people
+  rent and buy homes online without a guarantor, with digital visit scheduling, digital
+  contract signing, rent and sale pricing intelligence (QPreço), owner financial management,
+  and a real-estate consortium financing program. It operates a two-sided marketplace
+  across major Brazilian cities including São Paulo, Rio de Janeiro, Belo Horizonte,
+  Porto Alegre, Campinas, and Curitiba, earning revenue on rental and sales commissions.
+  Surfaced as a portfolio company of ribbit-capital and enriched into the API Evangelist
+  network. No public developer API surface was found; the company does publish a
+  security.txt with a Bugcrowd bug bounty program.'
 url: https://raw.githubusercontent.com/api-evangelist/quinto-andar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.quintoandar.com.br/favicon.ico
 tags:
 - Company
 - Proptech
+- Real Estate
+- Marketplace
+- Rentals
+- Brazil
+- Housing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.quintoandar.com.br
+- type: HelpCenter
+  url: https://www.quintoandar.com.br/ajuda
+- type: TermsOfService
+  url: https://www.quintoandar.com.br/termos
+- type: PrivacyPolicy
+  url: https://www.quintoandar.com.br/politica-de-privacidade
+- type: WellKnown
+  url: well-known/quinto-andar-well-known.yml
+- type: SecurityTxt
+  url: well-known/quinto-andar-security.txt
+- type: DomainSecurity
+  url: security/quinto-andar-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/quinto-andar-vulnerability-disclosure.yml
+- type: Security
+  url: https://bugcrowd.com/engagements/quintoandar
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

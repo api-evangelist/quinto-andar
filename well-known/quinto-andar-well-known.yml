@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://www.quintoandar.com.br/.well-known/*
+host: https://www.quintoandar.com.br
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: quinto-andar-security.txt
+- path: /.well-known/assetlinks.json
+  status: 200
+  file: quinto-andar-assetlinks.json
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403

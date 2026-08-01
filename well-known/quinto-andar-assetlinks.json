@@ -1,0 +1,72 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.quintoandar.inquilinos",
+      "sha256_cert_fingerprints": [
+        "CB:54:20:99:D2:A4:DD:6A:87:65:2C:DC:32:D8:6D:3A:C1:01:31:1F:30:28:05:52:EE:74:51:C7:B0:C4:95:61"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.quintoandar.inquilinos.staging",
+      "sha256_cert_fingerprints": [
+        "BC:06:B6:DB:AD:83:44:6B:92:39:2D:FC:B9:BC:E7:86:D2:8E:CF:34:0E:43:00:EF:0E:DC:D0:BD:92:C1:A4:CE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.quintoandar.inquilinos.forno",
+      "sha256_cert_fingerprints": [
+        "BC:06:B6:DB:AD:83:44:6B:92:39:2D:FC:B9:BC:E7:86:D2:8E:CF:34:0E:43:00:EF:0E:DC:D0:BD:92:C1:A4:CE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.inmuebles24.full",
+      "sha256_cert_fingerprints": [
+        "CB:54:20:99:D2:A4:DD:6A:87:65:2C:DC:32:D8:6D:3A:C1:01:31:1F:30:28:05:52:EE:74:51:C7:B0:C4:95:61"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.quintoandar.corretores",
+      "sha256_cert_fingerprints": [
+        "CB:54:20:99:D2:A4:DD:6A:87:65:2C:DC:32:D8:6D:3A:C1:01:31:1F:30:28:05:52:EE:74:51:C7:B0:C4:95:61"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.quintoandar.corretores.forno",
+      "sha256_cert_fingerprints": [
+        "BC:06:B6:DB:AD:83:44:6B:92:39:2D:FC:B9:BC:E7:86:D2:8E:CF:34:0E:43:00:EF:0E:DC:D0:BD:92:C1:A4:CE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.quintoandar.corretores.staging",
+      "sha256_cert_fingerprints": [
+        "BC:06:B6:DB:AD:83:44:6B:92:39:2D:FC:B9:BC:E7:86:D2:8E:CF:34:0E:43:00:EF:0E:DC:D0:BD:92:C1:A4:CE"
+      ]
+    }
+  }
+]
