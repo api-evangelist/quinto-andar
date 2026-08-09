@@ -1,14 +1,13 @@
 aid: quinto-andar
 name: Quinto Andar
-description: 'QuintoAndar is a Brazilian proptech real-estate marketplace that lets people
-  rent and buy homes online without a guarantor, with digital visit scheduling, digital
-  contract signing, rent and sale pricing intelligence (QPreço), owner financial management,
-  and a real-estate consortium financing program. It operates a two-sided marketplace
-  across major Brazilian cities including São Paulo, Rio de Janeiro, Belo Horizonte,
-  Porto Alegre, Campinas, and Curitiba, earning revenue on rental and sales commissions.
-  Surfaced as a portfolio company of ribbit-capital and enriched into the API Evangelist
-  network. No public developer API surface was found; the company does publish a
-  security.txt with a Bugcrowd bug bounty program.'
+description: QuintoAndar is a Brazilian proptech real-estate marketplace that lets people rent and buy
+  homes online without a guarantor, with digital visit scheduling, digital contract signing, rent and
+  sale pricing intelligence (QPreço), owner financial management, and a real-estate consortium financing
+  program. It operates a two-sided marketplace across major Brazilian cities including São Paulo, Rio
+  de Janeiro, Belo Horizonte, Porto Alegre, Campinas, and Curitiba, earning revenue on rental and sales
+  commissions. Surfaced as a portfolio company of ribbit-capital and enriched into the API Evangelist
+  network. No public developer API surface was found; the company does publish a security.txt with a Bugcrowd
+  bug bounty program.
 url: https://raw.githubusercontent.com/api-evangelist/quinto-andar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +28,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 image: https://www.quintoandar.com.br/favicon.ico
 tags:
 - Company
@@ -64,8 +63,12 @@ common:
   url: security/quinto-andar-vulnerability-disclosure.yml
 - type: Security
   url: https://bugcrowd.com/engagements/quintoandar
+- type: GitHubOrganization
+  url: https://github.com/quintoandar
 x-enrichment:
   date: '2026-07-20'
   status: enriched
   artifacts_added: 5
   pass: local-v1
+x-merged-from:
+- quintoandar
